@@ -1,9 +1,8 @@
-import Bookmarkimg from '../Bookmark.png'
 export const projects = [
    {
     title: "Bookmark Landing Page",
     description: "A simple Landing page for a bookmark manager as an extention using TailwindCss.",
-    image: Bookmarkimg,
+    image: "/Bookmark.png",
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "CSS", "TailwindCss", "Javascript"]
@@ -11,7 +10,7 @@ export const projects = [
   {
     title: "Tic Tac Toe Game",
     description: "A basic tic tac toe game for fun.Features an interactive grid, win detection, and a reset option.",
-    image: "/public/Tictaktoe.png",
+    image: "/Tictaktoe.png",
     demoLink: "https://myportfolio.com",
     githubLink: "https://github.com/username/portfolio",
     techStack: ["HTML", "CSS", "JavaScript"]
@@ -19,7 +18,7 @@ export const projects = [
   {
     title: "Mortgage Calculator App",
     description: "A simple Mortgage calculator app with interest rate find feature as well.",
-    image: "/public/Mortgage.png",
+    image: "/Mortgage.png",
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "CSS", "TailwindCss", "Javascript"]
@@ -27,7 +26,7 @@ export const projects = [
    {
     title: "Insurance Landing Page",
     description: "A Landing Page for an Insurance company using diff tech stack.",
-    image: "/public/Insurance.png",
+    image: "/Insurance.png",
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "CSS", "TailwindCss", "Javascript"]
@@ -35,7 +34,7 @@ export const projects = [
    {
     title: "Nike Hero using React",
     description: "A clean and responsive hero section for NIKE's shoes that is responsive across different devices.",
-    image: "/public/Nike.png",
+    image: "/Nike.png",
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "React", "TailwindCss", "Javascript"]
@@ -43,7 +42,7 @@ export const projects = [
    {
     title: "News Landing Page",
     description: "A News broadcasting page that uses grid and flexbox dor dynamic responsivness.",
-    image: "/public/News Landing Page.png",
+    image: "/News.png",
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "CSS", "TailwindCss", "Javascript"]
