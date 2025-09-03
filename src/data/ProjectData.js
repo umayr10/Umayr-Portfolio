@@ -1,8 +1,9 @@
+import Bookmarkimg from '../assets/Bookmark.png'
 export const projects = [
    {
     title: "Bookmark Landing Page",
     description: "A simple Landing page for a bookmark manager as an extention using TailwindCss.",
-    image: "/public/Bookmark.png",
+    image: Bookmarkimg,
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "CSS", "TailwindCss", "Javascript"]
