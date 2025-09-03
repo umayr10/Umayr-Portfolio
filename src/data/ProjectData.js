@@ -1,4 +1,4 @@
-import Bookmarkimg from '../assets/Bookmark.png'
+import Bookmarkimg from '../Bookmark.png'
 export const projects = [
    {
     title: "Bookmark Landing Page",
