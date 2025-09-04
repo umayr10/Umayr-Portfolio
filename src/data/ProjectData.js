@@ -2,7 +2,7 @@ export const projects = [
    {
     title: "Bookmark Landing Page",
     description: "A simple Landing page for a bookmark manager as an extention using TailwindCss.",
-    image: "./public/Bookmark.png",
+    image: "./Bookmark.png",
     demoLink: "https://todoapp.com",
     githubLink: "https://github.com/username/todo",
     techStack: ["HTML", "CSS", "TailwindCss", "Javascript"]
@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "Tic Tac Toe Game",
     description: "A basic tic tac toe game for fun.Features an interactive grid, win detection, and a reset option.",
-    image: "/public/Tictaktoe.png",
+    image: "./Tictaktoe.png",
     demoLink: "https://myportfolio.com",
     githubLink: "https://github.com/username/portfolio",
     techStack: ["HTML", "CSS", "JavaScript"]

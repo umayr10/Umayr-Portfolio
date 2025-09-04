@@ -31,7 +31,7 @@ const Navigation = () => {
   return (
     <div className='w-full bg-[#222222]  p-1 m-auto'>
       <nav className='mx-auto flex justify-between items-center gap-[256px] max-w-[800px] h-[72px] text-white max-sm:max-w-[375px] p-1'>
-        <img className='w-[40px]' src='./public/logo.png'></img>
+        <img className='w-[40px]' src='./logo.png'></img>
         <ul className='flex justify-between items-center gap-[70px] text-md max-sm:hidden'>
           <li onClick={scrollToHome} className='hover:text-[#9A33FF] hover:underline hover:decoration-1 hover:underline-offset-16 hover:decoration-[#9A33FF]'><a href='#'>Home</a></li>
           <li onClick={scrollToProjects} className='hover:text-[#9A33FF] hover:underline hover:decoration-1 hover:underline-offset-16 hover:decoration-[#9A33FF]'><a href='#'>Projects</a></li>
