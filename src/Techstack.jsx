@@ -1,8 +1,15 @@
 import React from 'react'
+import html from "./assets/html.svg"
+import css from "./assets/css.svg"
+import JS from "./assets/js.svg"
+import tailwind from "./assets/tailwind.svg"
+import github from "./assets/gitub.svg"
+import git from "./assets/git.svg"
+import Reactlogo from "./assets/Reactlogo.svg"
 
 const Techstack = () => {
   return (
-    <div className='bg-black w-full text-white flex flex-col justify-center items-center gap-8 m-auto py-12 max-sm:flex-col'>
+    <div className=' w-full text-white flex flex-col justify-center items-center gap-8 m-auto py-12 max-sm:flex-col'>
                        {/*Projects*/}
         <div className='flex flex-col justify-center items-center gap-12 p-4'>
             <p className='font-semibold tracking-[8px]'>EXPERIENCE WITH</p>
@@ -12,27 +19,21 @@ const Techstack = () => {
                 
 
                  <div className='flex justify-between items-center flex-wrap gap-16'>
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='html-1.svg'></img>
+                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={html}></img>
 
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='css-3.svg'></img>
+                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={css}></img>
 
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='tailwind-css-2.svg'></img>
+                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={tailwind}></img>
 
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='javascript-1.svg'></img>
+                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={JS}></img>
 
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='react-2.svg'></img>
+                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={Reactlogo}></img>
 
-                     <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='git-icon.svg'></img>
+                     <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={git}></img>
 
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='github-icon-2.svg'></img>
+                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src={github}></img>
 
                 </div>  
-                {/* <div className='flex justify-center items-center gap-16'>
-
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='git-icon.svg'></img>
-
-                    <img className='w-[50px] transition-transform duration-300 hover:scale-200' src='github-icon-2.svg'></img>
-                </div>  */}
             </div>
             
             
