@@ -1,6 +1,12 @@
 import React from 'react'
 
 const ContactForm = () => {
+   const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className='flex flex-col justify-center items-center gap-4 p-4 flex-wrap bg-black '>
         <h1 className='text-white text-4xl font-bold'>Lets Discuss your project</h1>

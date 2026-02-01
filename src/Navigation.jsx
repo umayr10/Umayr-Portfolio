@@ -23,7 +23,7 @@ const Navigation = () => {
     }
   };
 
-  const scrollToContact = () => {
+  const scrollToContactForm = () => {
     const contactSection = document.getElementById("contact");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
@@ -43,7 +43,7 @@ const Navigation = () => {
           
           <li onClick={scrollToExperience} className='hover:text-[#9A33FF] hover:underline hover:decoration-1 hover:underline-offset-16 hover:decoration-[#9A33FF]'><a href='#'>Experience</a></li>
           
-          <li onClick={scrollToContact} className='hover:text-[#9A33FF] hover:underline hover:decoration-1 hover:underline-offset-16 hover:decoration-[#9A33FF]'><a href='#'>Contact</a></li>
+          <li onClick={scrollToContactForm} className='hover:text-[#9A33FF] hover:underline hover:decoration-1 hover:underline-offset-16 hover:decoration-[#9A33FF]'><a href='#'>Contact</a></li>
         
         </ul>
         

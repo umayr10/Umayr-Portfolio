@@ -2,6 +2,7 @@ import React from 'react'
 import avatar from "./assets/avatar.png"
 import TextType from './TextType';
 import { motion } from "motion/react"
+import resume from "./assets/resume.pdf"
 
 const Hero = () => {
 
@@ -66,11 +67,11 @@ const Hero = () => {
         </button>
 
         {/*Download btn */}
-        <button className="font-semibold border border-solid border-white px-4 py-2 rounded-4xl hover:text-black hover:bg-white cursor-pointer">
-          <a href="/resume.pdf" download>
+        <a href= {resume} download>
+          <button className="font-semibold border border-solid border-white px-4 py-2       rounded-4xl hover:text-black hover:bg-white cursor-pointer">
             Download CV
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </motion.div>
   );
